@@ -34,6 +34,7 @@ TGT_CFLAGS	+= $(STANDARD_FLAGS)
 # ARFLAGS	= rcsv
 ARFLAGS		= rcs
 
+OBJS += flashaccel.o
 OBJS += gpio.o
 OBJS += pwr.o
 
